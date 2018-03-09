@@ -1,0 +1,23 @@
+{
+    "name": "eframe/database",
+    "description": "Extend Illuminate Database package.",
+    "require": {
+        "illuminate/database": "^5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nazarii Makar",
+            "email": "nazar.makar@magnise.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EFrame\\Database\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
