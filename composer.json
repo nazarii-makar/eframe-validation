@@ -1,0 +1,23 @@
+{
+    "name": "eframe/validation",
+    "description": "Extend Illuminate Validation package.",
+    "require": {
+        "illuminate/validation": "^5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nazarii Makar",
+            "email": "nazar.makar@magnise.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EFrame\\Validation\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
