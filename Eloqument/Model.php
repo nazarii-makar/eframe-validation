@@ -37,7 +37,7 @@ abstract class Model extends IlluminateModel
      * Create a new Eloquent query builder for the model.
      *
      * @param  \Illuminate\Database\Query\Builder  $query
-     * @return \Frame\Database\Eloquent\Builder|static
+     * @return \EFrame\Database\Eloquent\Builder|static
      */
     public function newEloquentBuilder($query)
     {
@@ -47,7 +47,7 @@ abstract class Model extends IlluminateModel
     /**
      * Get a new query builder instance for the connection.
      *
-     * @return \Frame\Database\Query\Builder
+     * @return \EFrame\Database\Query\Builder
      */
     protected function newBaseQueryBuilder()
     {

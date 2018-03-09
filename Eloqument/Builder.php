@@ -67,7 +67,7 @@ class Builder extends IlluminateBuilder
      * @param  int  $perPage
      * @param  int  $currentPage
      * @param  array  $options
-     * @return \Frame\Pagination\LengthAwarePaginator
+     * @return \EFrame\Pagination\LengthAwarePaginator
      */
     protected function paginator($items, $total, $perPage, $currentPage, $options)
     {
@@ -83,7 +83,7 @@ class Builder extends IlluminateBuilder
      * @param  int $perPage
      * @param  int $currentPage
      * @param  array  $options
-     * @return \Frame\Pagination\Paginator
+     * @return \EFrame\Pagination\Paginator
      */
     protected function simplePaginator($items, $perPage, $currentPage, $options)
     {
