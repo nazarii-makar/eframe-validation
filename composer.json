@@ -2,8 +2,12 @@
     "name": "eframe/validation",
     "description": "Extend Illuminate Validation package.",
     "require": {
+<<<<<<< HEAD
         "illuminate/validation": "^5.6",
         "simshaun/recurr": "^3.0.5"
+=======
+        "illuminate/validation": "^5.6"
+>>>>>>> 7c5c21be1934682d5fb449691a5b5a88570d6012
     },
     "license": "MIT",
     "authors": [
