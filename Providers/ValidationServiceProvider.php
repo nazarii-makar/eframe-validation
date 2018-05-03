@@ -2,6 +2,7 @@
 
 namespace EFrame\Validation\Providers;
 
+use EFrame\Validation\Rules\Step;
 use EFrame\Validation\Validator;
 use EFrame\Validation\Rules\Uuid;
 use EFrame\Validation\Rules\RRule;
@@ -17,6 +18,7 @@ class ValidationServiceProvider extends ServiceProvider
         'uuid'       => Uuid::class,
         'rrule'      => RRule::class,
         'rrule_freq' => RRuleFrequency::class,
+        'step'       => Step::class
     ];
 
     /**
